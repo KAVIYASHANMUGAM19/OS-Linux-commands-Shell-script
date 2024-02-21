@@ -41,25 +41,30 @@ s.n. dasgupta
 ```
 ### Display the content of the files
 cat < file1
+## OUTPUT
 ![Screenshot 2024-02-20 194753](https://github.com/KAVIYASHANMUGAM19/OS-Linux-commands-Shell-script/assets/155141139/abd6f097-d463-4c21-bda8-265e66f7d69d)
 
 
 cat < file2
+## OUTPUT
 ![Screenshot 2024-02-20 194805](https://github.com/KAVIYASHANMUGAM19/OS-Linux-commands-Shell-script/assets/155141139/8819a597-8b32-4e67-9d2f-27e785b0e8e5)
 
 
 
 # Comparing Files
 cmp file1 file2
+## OUTPUT
 ![Screenshot 2024-02-20 194814](https://github.com/KAVIYASHANMUGAM19/OS-Linux-commands-Shell-script/assets/155141139/73b4794d-dca6-48b4-bb8e-15e26bebf6e0)
 
  
 comm file1 file2
+## OUTPUT
 ![Screenshot 2024-02-20 194907](https://github.com/KAVIYASHANMUGAM19/OS-Linux-commands-Shell-script/assets/155141139/91b831e1-f845-403e-91da-30da74b0f4f6)
 
 
  
 diff file1 file2
+## OUTPUT
 ![Screenshot 2024-02-20 194934](https://github.com/KAVIYASHANMUGAM19/OS-Linux-commands-Shell-script/assets/155141139/e6f79a39-b3c4-49ee-8cec-4b0ac7f7b27a)
 
 
@@ -83,6 +88,7 @@ cat > file22
 
 
 cut -c1-3 file11
+## OUTPUT
 ![Screenshot 2024-02-20 195201](https://github.com/KAVIYASHANMUGAM19/OS-Linux-commands-Shell-script/assets/155141139/eda20510-fdbf-41a5-8429-4e5e241ad469)
 
 
@@ -90,12 +96,14 @@ cut -c1-3 file11
 
 
 cut -d "|" -f 1 file22
+## OUTPUT
 ![Screenshot 2024-02-20 195313](https://github.com/KAVIYASHANMUGAM19/OS-Linux-commands-Shell-script/assets/155141139/083a9024-3834-46c6-86ce-c15a6b5f7e7d)
 
 
 
 
 cut -d "|" -f 2 file22
+## OUTPUT
 ![Screenshot 2024-02-20 195344](https://github.com/KAVIYASHANMUGAM19/OS-Linux-commands-Shell-script/assets/155141139/6c24c350-f836-48b3-9ebc-56267c8d8d9d)
 
 
@@ -111,25 +119,29 @@ Hello world
 hello world
  
 grep Hello newfile 
+## OUTPUT
 ![Screenshot 2024-02-20 195647](https://github.com/KAVIYASHANMUGAM19/OS-Linux-commands-Shell-script/assets/155141139/dcab35af-fd11-42a6-8e9f-a26bf0ef3aa5)
 
 
 
 
 grep hello newfile 
+## OUTPUT
 ![Screenshot 2024-02-20 195708](https://github.com/KAVIYASHANMUGAM19/OS-Linux-commands-Shell-script/assets/155141139/9910a9f3-8261-4b03-87a4-9b7c1862437c)
 
 
 
 
 
-grep -v hello newfile 
+grep -v hello newfile
+## OUTPUT
 ![Screenshot 2024-02-20 195728](https://github.com/KAVIYASHANMUGAM19/OS-Linux-commands-Shell-script/assets/155141139/7867b87e-7154-4c77-a9a2-420d82eaeaa3)
 
 
 
 
 cat newfile | grep -i "hello"
+## OUTPUT
 ![Screenshot 2024-02-20 195801](https://github.com/KAVIYASHANMUGAM19/OS-Linux-commands-Shell-script/assets/155141139/c0c299e1-1bc4-405a-88f7-344a33c7d591)
 
 
@@ -137,12 +149,15 @@ cat newfile | grep -i "hello"
 
 
 cat newfile | grep -i -c "hello"
+## OUTPUT
 ![Screenshot 2024-02-20 195821](https://github.com/KAVIYASHANMUGAM19/OS-Linux-commands-Shell-script/assets/155141139/3179cd58-3720-4b6f-ada2-2634ec03d030)
 
 
 
 grep -w -n world newfile   
 ## OUTPUT
+ ![Screenshot 2024-02-21 132234](https://github.com/KAVIYASHANMUGAM19/OS-Linux-commands-Shell-script/assets/155141139/a46b4545-2713-4e53-935c-d28b586fb419)
+
 
 
 cat < newfile 
@@ -166,62 +181,86 @@ Linux is best in this World
  ```
 egrep -w 'Hello|hello' newfile 
 ## OUTPUT
+![Screenshot 2024-02-20 203602](https://github.com/KAVIYASHANMUGAM19/OS-Linux-commands-Shell-script/assets/155141139/94a3d21e-7ce4-45f2-a099-677bab50c784)
+
 
 
 
 egrep -w '(H|h)ello' newfile 
 ## OUTPUT
+![Screenshot 2024-02-20 203631](https://github.com/KAVIYASHANMUGAM19/OS-Linux-commands-Shell-script/assets/155141139/ea422e83-17f3-4f94-a140-e731bf708ad5)
+
 
 
 
 egrep -w '(H|h)ell[a-z]' newfile 
 ## OUTPUT
+![Screenshot 2024-02-20 203655](https://github.com/KAVIYASHANMUGAM19/OS-Linux-commands-Shell-script/assets/155141139/1e9c3896-3183-40c1-8323-c23b2bef1980)
+
 
 
 
 
 egrep '(^hello)' newfile 
 ## OUTPUT
+![Screenshot 2024-02-20 203713](https://github.com/KAVIYASHANMUGAM19/OS-Linux-commands-Shell-script/assets/155141139/92391847-ee06-44bf-ade7-93f5229d503a)
+
 
 
 
 egrep '(world$)' newfile 
 ## OUTPUT
+![Screenshot 2024-02-20 203737](https://github.com/KAVIYASHANMUGAM19/OS-Linux-commands-Shell-script/assets/155141139/81f5f28f-6854-47b5-bb21-e3ff5cae44c9)
+
 
 
 
 egrep '(World$)' newfile 
 ## OUTPUT
+![Screenshot 2024-02-20 203822](https://github.com/KAVIYASHANMUGAM19/OS-Linux-commands-Shell-script/assets/155141139/a914f62d-e80f-4d12-a146-d0421a1e426d)
+
 
 
 egrep '((W|w)orld$)' newfile 
 ## OUTPUT
+![Screenshot 2024-02-20 203856](https://github.com/KAVIYASHANMUGAM19/OS-Linux-commands-Shell-script/assets/155141139/122cc750-cef2-4037-8a25-5873a8df50fc)
+
 
 
 
 egrep '[1-9]' newfile 
 ## OUTPUT
+![Screenshot 2024-02-20 203937](https://github.com/KAVIYASHANMUGAM19/OS-Linux-commands-Shell-script/assets/155141139/b685d6ac-28f9-4709-ae5e-070e798df656)
 
 
 
-egrep 'Linux.*world' newfile 
+
+egrep 'Linux.*world' newfile
 ## OUTPUT
+![Screenshot 2024-02-20 204002](https://github.com/KAVIYASHANMUGAM19/OS-Linux-commands-Shell-script/assets/155141139/7cbce219-7807-4f85-b655-fd1ee178f2ee)
+
 
 
 egrep 'Linux.*World' newfile 
 ## OUTPUT
+![Screenshot 2024-02-20 204030](https://github.com/KAVIYASHANMUGAM19/OS-Linux-commands-Shell-script/assets/155141139/aa978851-0dba-4847-a8ab-6df23ef9221d)
+
 
 
 egrep l{2} newfile
 ## OUTPUT
+![Screenshot 2024-02-20 204048](https://github.com/KAVIYASHANMUGAM19/OS-Linux-commands-Shell-script/assets/155141139/275de889-5eff-4bf6-8d7b-e0f8cad5acb9)
+
 
 
 
 egrep 's{1,2}' newfile
-## OUTPUT 
+## OUTPUT
+![Screenshot 2024-02-20 204114](https://github.com/KAVIYASHANMUGAM19/OS-Linux-commands-Shell-script/assets/155141139/d5aef624-70a1-4dbb-8288-674cd17562f9)
 
 
-cat > file23
+
+cat > file22
 ```
 1001 | Ram | 10000 | HR
 1001 | Ram | 10000 | HR
@@ -235,81 +274,108 @@ cat > file23
 ```
 
 
-sed -n -e '3p' file23
+sed -n -e '3p' file22
 ## OUTPUT
+![Screenshot 2024-02-20 204247](https://github.com/KAVIYASHANMUGAM19/OS-Linux-commands-Shell-script/assets/155141139/9493602a-ca43-4ab4-ac87-4e051e1d8e02)
 
 
 
-sed -n -e '$p' file23
+
+sed -n -e '$p' file22
 ## OUTPUT
+![Screenshot 2024-02-20 204325](https://github.com/KAVIYASHANMUGAM19/OS-Linux-commands-Shell-script/assets/155141139/59f01d0a-c4b0-4eb0-a499-3621b8792b74)
 
 
 
-sed  -e 's/Ram/Sita/' file23
+
+sed  -e 's/Ram/Sita/' file22
 ## OUTPUT
+![Screenshot 2024-02-20 204349](https://github.com/KAVIYASHANMUGAM19/OS-Linux-commands-Shell-script/assets/155141139/61316a35-75ba-41e0-9a6a-071e08008fdc)
 
 
 
-sed  -e '2s/Ram/Sita/' file23
+
+sed  -e '2s/Ram/Sita/' file22
 ## OUTPUT
+![Screenshot 2024-02-20 204421](https://github.com/KAVIYASHANMUGAM19/OS-Linux-commands-Shell-script/assets/155141139/59b81214-b88f-49ee-bb27-343f9aab68f9)
 
 
 
-sed  '/tom/s/5000/6000/' file23
+sed  '/tom/s/5000/6000/' file22
 ## OUTPUT
+![Screenshot 2024-02-20 204456](https://github.com/KAVIYASHANMUGAM19/OS-Linux-commands-Shell-script/assets/155141139/7ccca9a6-5061-41d8-a5c5-b7f39a46415b)
 
 
 
-sed -n -e '1,5p' file23
+
+sed -n -e '1,5p' file22
 ## OUTPUT
+![Screenshot 2024-02-20 204521](https://github.com/KAVIYASHANMUGAM19/OS-Linux-commands-Shell-script/assets/155141139/982d6ca7-a54b-43a2-b7ed-e38fcea7fcb0)
 
 
 
-sed -n -e '2,/Joe/p' file23
+
+sed -n -e '2,/Joe/p' file22
 ## OUTPUT
+![Screenshot 2024-02-20 204542](https://github.com/KAVIYASHANMUGAM19/OS-Linux-commands-Shell-script/assets/155141139/9f4470ae-3336-4392-a35d-0eeef53b803a)
 
 
 
 
-sed -n -e '/tom/,/Joe/p' file23
+
+sed -n -e '/tom/,/Joe/p' file22
 ## OUTPUT
+![Screenshot 2024-02-20 204607](https://github.com/KAVIYASHANMUGAM19/OS-Linux-commands-Shell-script/assets/155141139/0ae9aa78-f46e-4f25-867a-fceae7242760)
+
 
 
 
 seq 10 
 ## OUTPUT
+![Screenshot 2024-02-20 204630](https://github.com/KAVIYASHANMUGAM19/OS-Linux-commands-Shell-script/assets/155141139/7487e0a4-6962-4715-9056-a8e9c1e77dc8)
+
 
 
 
 seq 10 | sed -n '4,6p'
 ## OUTPUT
+![Screenshot 2024-02-20 204737](https://github.com/KAVIYASHANMUGAM19/OS-Linux-commands-Shell-script/assets/155141139/f6917505-cddb-4c99-82a7-34b34acb7a94)
 
 
 
-seq 10 | sed -n '2,~4p'
+
+seq 10 | sed -n '2,4p'
 ## OUTPUT
+![Screenshot 2024-02-20 204857](https://github.com/KAVIYASHANMUGAM19/OS-Linux-commands-Shell-script/assets/155141139/15e0601b-3904-40cf-a36f-4dd58d75d8bf)
+
 
 
 
 seq 3 | sed '2a hello'
 ## OUTPUT
+![Screenshot 2024-02-20 204922](https://github.com/KAVIYASHANMUGAM19/OS-Linux-commands-Shell-script/assets/155141139/b402483f-a8d3-4e37-8c77-36dc85ec6f0c)
 
 
 
 seq 2 | sed '2i hello'
 ## OUTPUT
+![Screenshot 2024-02-20 204943](https://github.com/KAVIYASHANMUGAM19/OS-Linux-commands-Shell-script/assets/155141139/333e1b97-d43f-41cf-93e6-f5e625ab6c1f)
 
 
 seq 10 | sed '2,9c hello'
 ## OUTPUT
+![Screenshot 2024-02-20 205010](https://github.com/KAVIYASHANMUGAM19/OS-Linux-commands-Shell-script/assets/155141139/44eeb1cd-1601-4410-90ac-c91f1110789b)
 
 
 sed -n '2,4{s/^/$/;p}' file23
 ## OUTPUT
+![Screenshot 2024-02-20 205044](https://github.com/KAVIYASHANMUGAM19/OS-Linux-commands-Shell-script/assets/155141139/e3cf06e6-452d-4bf1-a1fd-edbe10d3d70f)
 
 
 
 sed -n '2,4{s/$/*/;p}' file23
+## OUTPUT
+![Screenshot 2024-02-20 205108](https://github.com/KAVIYASHANMUGAM19/OS-Linux-commands-Shell-script/assets/155141139/b779b280-93c6-4829-9bd1-3b92faafea28)
 
 
 #Sorting File content
@@ -323,6 +389,7 @@ cat > file21
 ``` 
 sort file21
 ## OUTPUT
+![Screenshot 2024-02-20 205201](https://github.com/KAVIYASHANMUGAM19/OS-Linux-commands-Shell-script/assets/155141139/c5be9e44-1805-4c71-92cb-2bf97c95817d)
 
 
 cat > file22
@@ -336,6 +403,7 @@ cat > file22
 ``` 
 uniq file22
 ## OUTPUT
+![Screenshot 2024-02-20 205401](https://github.com/KAVIYASHANMUGAM19/OS-Linux-commands-Shell-script/assets/155141139/32f271ff-9dd3-44ef-9ac2-cd9734c12556)
 
 
 
@@ -343,6 +411,7 @@ uniq file22
 
 cat file23 | tr [:lower:] [:upper:]
  ## OUTPUT
+![Screenshot 2024-02-20 205513](https://github.com/KAVIYASHANMUGAM19/OS-Linux-commands-Shell-script/assets/155141139/ed5bc641-d754-4c2d-9e0f-e412304de495)
 
 cat < urllist.txt
 ```
@@ -358,18 +427,21 @@ www. google. com
 www. mrcet.... com
  ```
 cat urllist.txt | tr -d ' '
- ## OUTPUT
+## OUTPUT
+![Screenshot 2024-02-20 205622](https://github.com/KAVIYASHANMUGAM19/OS-Linux-commands-Shell-script/assets/155141139/cd0af4f1-9f99-45fc-846f-3299455076a3)
 
 
  
 cat urllist.txt | tr -d ' ' | tr -s '.'
 ## OUTPUT
+![Screenshot 2024-02-20 205644](https://github.com/KAVIYASHANMUGAM19/OS-Linux-commands-Shell-script/assets/155141139/c6e8385d-c038-455f-b324-261e38909180)
 
 
 
 #Backup commands
 tar -cvf backup.tar *
 ## OUTPUT
+![image](https://github.com/KAVIYASHANMUGAM19/OS-Linux-commands-Shell-script/assets/155141139/a4b0bdd9-700a-4908-8f4c-3013180ee07d)
 
 
 mkdir backupdir
@@ -378,19 +450,22 @@ mv backup.tar backupdir
  
 tar -tvf backup.tar
 ## OUTPUT
+![image](https://github.com/KAVIYASHANMUGAM19/OS-Linux-commands-Shell-script/assets/155141139/b90c0851-c29e-4958-8f1e-33b9b2365ecd)
 
 
 tar -xvf backup.tar
 ## OUTPUT
+![image](https://github.com/KAVIYASHANMUGAM19/OS-Linux-commands-Shell-script/assets/155141139/6b8b371b-c659-47ba-8de8-9aadf19e70fb)
 
 gzip backup.tar
 
-ls .gz
+
+
 ## OUTPUT
  
 gunzip backup.tar.gz
 ## OUTPUT
-
+l
  
 # Shell Script
 ```
@@ -414,7 +489,7 @@ cat herecheck.txt
 ## OUTPUT
 
 
-cat < scriptest.sh 
+cat <cat scriptest.sh 
 ```bash
 \#!/bin/sh
 echo “File name is $0 ”
@@ -452,7 +527,6 @@ chmod 777 scriptest.sh
 ## OUTPUT
 
  
-ls file1
 ## OUTPUT
 
 echo $?
@@ -1087,7 +1161,7 @@ else
 	echo "Number is NOT palindrome"
 fi
 ```
-## OUTPUT 
+## OUTPUT :
 
 
 # RESULT:
