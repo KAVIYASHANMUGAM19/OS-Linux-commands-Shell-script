@@ -41,27 +41,29 @@ s.n. dasgupta
 ```
 ### Display the content of the files
 cat < file1
-## OUTPUT
-
+![Screenshot 2024-02-20 194753](https://github.com/KAVIYASHANMUGAM19/OS-Linux-commands-Shell-script/assets/155141139/abd6f097-d463-4c21-bda8-265e66f7d69d)
 
 
 cat < file2
-## OUTPUT
+![Screenshot 2024-02-20 194805](https://github.com/KAVIYASHANMUGAM19/OS-Linux-commands-Shell-script/assets/155141139/8819a597-8b32-4e67-9d2f-27e785b0e8e5)
+
 
 
 # Comparing Files
 cmp file1 file2
-## OUTPUT
+![Screenshot 2024-02-20 194814](https://github.com/KAVIYASHANMUGAM19/OS-Linux-commands-Shell-script/assets/155141139/73b4794d-dca6-48b4-bb8e-15e26bebf6e0)
+
  
 comm file1 file2
- ## OUTPUT
+![Screenshot 2024-02-20 194907](https://github.com/KAVIYASHANMUGAM19/OS-Linux-commands-Shell-script/assets/155141139/91b831e1-f845-403e-91da-30da74b0f4f6)
+
 
  
 diff file1 file2
-## OUTPUT
+![Screenshot 2024-02-20 194934](https://github.com/KAVIYASHANMUGAM19/OS-Linux-commands-Shell-script/assets/155141139/e6f79a39-b3c4-49ee-8cec-4b0ac7f7b27a)
 
 
-#Filters
+
 
 ### Create the following files file11, file22 as follows:
 
@@ -81,18 +83,21 @@ cat > file22
 
 
 cut -c1-3 file11
-## OUTPUT
+![Screenshot 2024-02-20 195201](https://github.com/KAVIYASHANMUGAM19/OS-Linux-commands-Shell-script/assets/155141139/eda20510-fdbf-41a5-8429-4e5e241ad469)
+
 
 
 
 
 cut -d "|" -f 1 file22
-## OUTPUT
+![Screenshot 2024-02-20 195313](https://github.com/KAVIYASHANMUGAM19/OS-Linux-commands-Shell-script/assets/155141139/083a9024-3834-46c6-86ce-c15a6b5f7e7d)
+
 
 
 
 cut -d "|" -f 2 file22
-## OUTPUT
+![Screenshot 2024-02-20 195344](https://github.com/KAVIYASHANMUGAM19/OS-Linux-commands-Shell-script/assets/155141139/6c24c350-f836-48b3-9ebc-56267c8d8d9d)
+
 
 
 cat < newfile 
@@ -106,35 +111,33 @@ Hello world
 hello world
  
 grep Hello newfile 
-## OUTPUT
+![Screenshot 2024-02-20 195647](https://github.com/KAVIYASHANMUGAM19/OS-Linux-commands-Shell-script/assets/155141139/dcab35af-fd11-42a6-8e9f-a26bf0ef3aa5)
+
 
 
 
 grep hello newfile 
-## OUTPUT
+![Screenshot 2024-02-20 195708](https://github.com/KAVIYASHANMUGAM19/OS-Linux-commands-Shell-script/assets/155141139/9910a9f3-8261-4b03-87a4-9b7c1862437c)
+
 
 
 
 
 grep -v hello newfile 
-## OUTPUT
+![Screenshot 2024-02-20 195728](https://github.com/KAVIYASHANMUGAM19/OS-Linux-commands-Shell-script/assets/155141139/7867b87e-7154-4c77-a9a2-420d82eaeaa3)
+
 
 
 
 cat newfile | grep -i "hello"
-## OUTPUT
+![Screenshot 2024-02-20 195801](https://github.com/KAVIYASHANMUGAM19/OS-Linux-commands-Shell-script/assets/155141139/c0c299e1-1bc4-405a-88f7-344a33c7d591)
+
 
 
 
 
 cat newfile | grep -i -c "hello"
-## OUTPUT
-
-
-
-
-grep -R ubuntu /etc
-## OUTPUT
+![Screenshot 2024-02-20 195821](https://github.com/KAVIYASHANMUGAM19/OS-Linux-commands-Shell-script/assets/155141139/3179cd58-3720-4b6f-ada2-2634ec03d030)
 
 
 
