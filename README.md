@@ -936,6 +936,7 @@ done
 $ chmod 755 forctype.sh
 $ ./forctype.sh 
 ## OUTPUT
+![image](https://github.com/KAVIYASHANMUGAM19/OS-Linux-commands-Shell-script/assets/155141139/dab9024f-0c7b-475a-a76a-d2f6c5122dcf)
 
 cat forctype1.sh 
 ```bash
@@ -983,13 +984,13 @@ echo "Iteration number: $var1"
 done
 echo "The for loop is completed“
 ```
-## OUTPUT
-
 $ chmod 755 forbreak.sh
- 
 $ ./forbreak.sh 
+## OUTPUT
+![image](https://github.com/KAVIYASHANMUGAM19/OS-Linux-commands-Shell-script/assets/155141139/a344b040-b848-456b-9c6b-c215be68360a)
+
  
-cat forbreak.sh 
+cat forcontinue.sh 
 ```bash
 #!/bin/bash
 # breaking out of a for loop
@@ -1003,13 +1004,11 @@ echo "Iteration number: $var1"
 done
 echo "The for loop is completed“
 ```
-
- 
 $ chmod 755 forcontinue.sh
- 
 $ ./forcontinue.sh 
 ## OUTPUT
- 
+ ![image](https://github.com/KAVIYASHANMUGAM19/OS-Linux-commands-Shell-script/assets/155141139/4c006095-6327-47b1-a7e0-6f7659400433)
+
 cat exread.sh 
 ```bash
 #!/bin/bash
@@ -1018,11 +1017,10 @@ echo -n "Enter your name: "
 read name
 echo "Hello $name, welcome to my program. "
  ```
- 
 $ chmod 755 exread.sh 
- 
 $ ./exread.sh 
 ## OUTPUT
+![image](https://github.com/KAVIYASHANMUGAM19/OS-Linux-commands-Shell-script/assets/155141139/9bd5e462-c2f2-4952-a257-bcfc7524c8bd)
 
 
  cat exread1.sh
@@ -1033,12 +1031,11 @@ read -p "Enter your name: " name
 echo "Hello $name, welcome to my program. “
 ``` 
 $ chmod 755 exread1.sh 
-
+$ ./exread1.sh
 ## OUTPUT
+![image](https://github.com/KAVIYASHANMUGAM19/OS-Linux-commands-Shell-script/assets/155141139/27963d9a-955f-4e6d-b39f-c8338b845b45)
 
 
-
-$ ./exread1.sh 
  
 cat funcex.sh
 ```bash
@@ -1055,13 +1052,10 @@ else
 echo "Usage: badtest1 a b"
 fi
 ```
-## OUTPUT
  ./funcex.sh 
+ ## OUTPUT
+ ![image](https://github.com/KAVIYASHANMUGAM19/OS-Linux-commands-Shell-script/assets/155141139/aa488045-5fad-45c2-8ee4-f66d9aea7fe0)
 
- 
- ./funcex.sh 1 2
-
- 
 cat argshift.sh
 ```bash
 #!/bin/bash 
@@ -1070,10 +1064,10 @@ cat argshift.sh
   shift 
 done
 ```
-$ chmod 777 argshift.sh
-
-## OUTPUT
+$ chmod 777  argshift.sh 
 $ ./argshift.sh 1 2 3
+## OUTPUT
+![image](https://github.com/KAVIYASHANMUGAM19/OS-Linux-commands-Shell-script/assets/155141139/418678e9-67f5-4189-8919-c3f20cfc3614)
  
  cat argshift1.sh
 ```bash
@@ -1081,16 +1075,18 @@ $ ./argshift.sh 1 2 3
  # store arguments in a special array 
 args=("$@") 
 # get number of elements 
-ELEMENTS=${#args[@]} 
- # echo each element in array  
-# for loop 
+ELEMENTS=${#args[@]}
 for (( i=0;i<$ELEMENTS;i++)); do 
     echo ${args[${i}]} 
 done
+ # echo each element in array  
+# for loop 
+
+
 ```
 $ chmod 777 argshift.sh
-## OUTPUT
 $ ./argshift.sh 1 2 3
+## OUTPUT
  
 cat argshift.sh
 ```bash
@@ -1102,9 +1098,10 @@ while (( "$#" )); do
 done
 set +x
 ```
-## OUTPUT
  ./argshift.sh 1 2 3
- 
+ ## OUTPUT
+ ![image](https://github.com/KAVIYASHANMUGAM19/OS-Linux-commands-Shell-script/assets/155141139/418678e9-67f5-4189-8919-c3f20cfc3614)
+
  
 cat > nc.awk
 ```bash
@@ -1122,7 +1119,7 @@ print "No of Words count:",wordcount
  ```
 cat>data.dat
 ```bash
-bcdfghj
+bcdfghjGIG
 abcdfghj
 bcdfghj
 ebcdfghj
@@ -1135,7 +1132,8 @@ ubcdfghj
 ```
 awk -f nc.awk data.dat
 ## OUTPUT 
- 
+  ![image](https://github.com/KAVIYASHANMUGAM19/OS-Linux-commands-Shell-script/assets/155141139/5d566c26-9425-4b0f-8cf8-275cc5602033)
+
 cat > palindrome.sh
 ```bash
 #num=545
@@ -1161,7 +1159,11 @@ else
 	echo "Number is NOT palindrome"
 fi
 ```
+$ chmod 755 palindrome.sh
+$ ./palindrome.sh
+
 ## OUTPUT :
+![image](https://github.com/KAVIYASHANMUGAM19/OS-Linux-commands-Shell-script/assets/155141139/20663c0d-8fb4-4c15-ab4d-90da9a5dd0c3)
 
 
 # RESULT:
