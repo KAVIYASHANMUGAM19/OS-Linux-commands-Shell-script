@@ -458,10 +458,8 @@ tar -xvf backup.tar
 ![image](https://github.com/KAVIYASHANMUGAM19/OS-Linux-commands-Shell-script/assets/155141139/6b8b371b-c659-47ba-8de8-9aadf19e70fb)
 
 gzip backup.tar
-
-
-
 ## OUTPUT
+
  
 gunzip backup.tar.gz
 ## OUTPUT
@@ -526,21 +524,29 @@ chmod 777 scriptest.sh
 
 ## OUTPUT
 
- 
+ echo $?
 ## OUTPUT
+![Screenshot 2024-02-24 124040](https://github.com/KAVIYASHANMUGAM19/OS-Linux-commands-Shell-script/assets/155141139/b805ec0c-8411-477a-9048-a23898df4aac)
+
 
 echo $?
 ## OUTPUT 
+![image](https://github.com/KAVIYASHANMUGAM19/OS-Linux-commands-Shell-script/assets/155141139/71413be1-6c2a-4788-99a2-17097ce6411e)
+
 ./one
 bash: ./one: Permission denied
  
 echo $?
 ## OUTPUT 
+![Screenshot 2024-02-24 124040](https://github.com/KAVIYASHANMUGAM19/OS-Linux-commands-Shell-script/assets/155141139/1f8c0619-c808-42ca-9e25-b5f3d265dfc7)
+
  
 abcd
  
 echo $?
  ## OUTPUT
+ ![Screenshot 2024-02-24 124040](https://github.com/KAVIYASHANMUGAM19/OS-Linux-commands-Shell-script/assets/155141139/e892d510-6f36-449d-8d9c-774d61ee4cd9)
+
 
 
  
@@ -836,8 +842,10 @@ var1=$[ $var1 - 1 ]
 done
 ```
 $ chmod 755 whiletest.sh
- 
 $ ./whiletest.sh
+## OUTPUT
+![image](https://github.com/KAVIYASHANMUGAM19/OS-Linux-commands-Shell-script/assets/155141139/6455f361-51b5-4016-b6ab-c088d0e509e1)
+
  
  
 cat untiltest.sh 
@@ -851,7 +859,10 @@ var1=$[ $var1 - 25 ]
 done
 ``` 
 $ chmod 755 untiltest.sh
- 
+$ ./untiltest.sh
+## OUTPUT
+![image](https://github.com/KAVIYASHANMUGAM19/OS-Linux-commands-Shell-script/assets/155141139/74f2cbc2-06e8-4160-bd11-bc7564423c67)
+
  
  
 cat forin1.sh 
@@ -976,6 +987,8 @@ done
 $ chmod 755 forctype.sh
 $ ./forctype1.sh 
 ## OUTPUT
+![image](https://github.com/KAVIYASHANMUGAM19/OS-Linux-commands-Shell-script/assets/155141139/1e2ea90f-1567-4b78-a2a7-fbc3dbb60847)
+
 
 cat fornested1.sh 
 ```bash
@@ -994,6 +1007,8 @@ $ chmod 755 fornested1.sh
  
 $ ./fornested1.sh 
  ## OUTPUT
+ ![image](https://github.com/KAVIYASHANMUGAM19/OS-Linux-commands-Shell-script/assets/155141139/2a9a2a20-8e81-43c3-9098-25596c2ec202)
+
 
  
 cat forbreak.sh 
@@ -1113,6 +1128,8 @@ done
 $ chmod 777 argshift.sh
 $ ./argshift.sh 1 2 3
 ## OUTPUT
+![image](https://github.com/KAVIYASHANMUGAM19/OS-Linux-commands-Shell-script/assets/155141139/0e0ef1a4-9bf9-46b8-a7b4-bc559ad3c5f6)
+
  
 cat argshift.sh
 ```bash
@@ -1126,7 +1143,9 @@ set +x
 ```
  ./argshift.sh 1 2 3
  ## OUTPUT
- ![image](https://github.com/KAVIYASHANMUGAM19/OS-Linux-commands-Shell-script/assets/155141139/418678e9-67f5-4189-8919-c3f20cfc3614)
+![Screenshot 2024-02-29 132945](https://github.com/KAVIYASHANMUGAM19/OS-Linux-commands-Shell-script/assets/155141139/5ace63dd-b541-437d-9b1a-23edd7709e62)
+
+
 
  
 cat > nc.awk
@@ -1158,7 +1177,8 @@ ubcdfghj
 ```
 awk -f nc.awk data.dat
 ## OUTPUT 
-  ![image](https://github.com/KAVIYASHANMUGAM19/OS-Linux-commands-Shell-script/assets/155141139/51ced2f6-0a79-491c-b758-b388e9e2e864)
+![Screenshot 2024-02-28 201128](https://github.com/KAVIYASHANMUGAM19/OS-Linux-commands-Shell-script/assets/155141139/6d52873f-ebaf-4955-af80-e829cf427eda)
+  
 
 
 cat > palindrome.sh
@@ -1191,6 +1211,7 @@ $ ./palindrome.sh
 
 ## OUTPUT :
 ![image](https://github.com/KAVIYASHANMUGAM19/OS-Linux-commands-Shell-script/assets/155141139/20663c0d-8fb4-4c15-ab4d-90da9a5dd0c3)
+
 ![image](https://github.com/KAVIYASHANMUGAM19/OS-Linux-commands-Shell-script/assets/155141139/47e21b1f-cf09-4ba9-9fcd-4d8bdb9d84c5)
 
 
