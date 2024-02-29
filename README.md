@@ -1158,7 +1158,8 @@ ubcdfghj
 ```
 awk -f nc.awk data.dat
 ## OUTPUT 
-  ![image](https://github.com/KAVIYASHANMUGAM19/OS-Linux-commands-Shell-script/assets/155141139/5d566c26-9425-4b0f-8cf8-275cc5602033)
+  ![image](https://github.com/KAVIYASHANMUGAM19/OS-Linux-commands-Shell-script/assets/155141139/51ced2f6-0a79-491c-b758-b388e9e2e864)
+
 
 cat > palindrome.sh
 ```bash
@@ -1190,8 +1191,9 @@ $ ./palindrome.sh
 
 ## OUTPUT :
 ![image](https://github.com/KAVIYASHANMUGAM19/OS-Linux-commands-Shell-script/assets/155141139/20663c0d-8fb4-4c15-ab4d-90da9a5dd0c3)
+![image](https://github.com/KAVIYASHANMUGAM19/OS-Linux-commands-Shell-script/assets/155141139/47e21b1f-cf09-4ba9-9fcd-4d8bdb9d84c5)
 
-![image](https://github.com/KAVIYASHANMUGAM19/OS-Linux-commands-Shell-script/assets/155141139/356572df-215e-46a7-895e-82a93d4b2f1f)
+
 
 
 # RESULT:
