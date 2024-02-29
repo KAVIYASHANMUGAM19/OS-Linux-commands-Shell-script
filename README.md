@@ -803,6 +803,7 @@ echo "I cannot write to the file"
 fi
 ```
 $ chmod 755 ifcompound.sh
+
 $ ./ifcompound.sh 
 ## OUTPUT
 ![Screenshot 2024-02-24 131345](https://github.com/KAVIYASHANMUGAM19/OS-Linux-commands-Shell-script/assets/155141139/764b3737-3cfa-4f2d-8da1-cb1d54a03442)
@@ -825,7 +826,9 @@ echo "Sorry, you are not allowed here";;
 esac
 ```
 $ chmod 755 casecheck.sh 
-$ ./casecheck.sh 
+
+$ ./casecheck.sh
+
 ## OUTPUT
 ![WhatsApp Image 2024-02-28 at 14 42 48_a8f5e1a3](https://github.com/KAVIYASHANMUGAM19/OS-Linux-commands-Shell-script/assets/155141139/c43bcf4d-2d40-4eae-938f-29597afb6a75)
 
@@ -842,7 +845,9 @@ var1=$[ $var1 - 1 ]
 done
 ```
 $ chmod 755 whiletest.sh
+
 $ ./whiletest.sh
+
 ## OUTPUT
 ![image](https://github.com/KAVIYASHANMUGAM19/OS-Linux-commands-Shell-script/assets/155141139/6455f361-51b5-4016-b6ab-c088d0e509e1)
 
@@ -859,7 +864,9 @@ var1=$[ $var1 - 25 ]
 done
 ``` 
 $ chmod 755 untiltest.sh
+
 $ ./untiltest.sh
+
 ## OUTPUT
 ![image](https://github.com/KAVIYASHANMUGAM19/OS-Linux-commands-Shell-script/assets/155141139/74f2cbc2-06e8-4160-bd11-bc7564423c67)
 
@@ -876,6 +883,7 @@ done
  ```
  
 $ chmod 755 forin1.sh
+
 $ ./forin1.sh
 ## OUTPUT
 ![Screenshot 2024-02-26 111416](https://github.com/KAVIYASHANMUGAM19/OS-Linux-commands-Shell-script/assets/155141139/5dc4f767-d02a-4202-9095-de2fd4dd0a6e)
@@ -903,6 +911,7 @@ echo “word:$test”
 done
 ```
 $ chmod 755 forin2.sh
+
 $ ./forin2.sh 
 ## OUTPUT
 ![Screenshot 2024-02-26 111557](https://github.com/KAVIYASHANMUGAM19/OS-Linux-commands-Shell-script/assets/155141139/ddfb35d7-07c6-4bcc-8238-28534dbac643)
@@ -932,6 +941,7 @@ echo The next state is $test
 done
 ```
 $ chmod 755 forin1.sh
+
 $ ./forinfile.sh
 ## OUTPUT
 ![Screenshot 2024-02-26 112022](https://github.com/KAVIYASHANMUGAM19/OS-Linux-commands-Shell-script/assets/155141139/b8225fa7-99dc-450f-924d-dd85159643f9)
@@ -985,6 +995,7 @@ echo "$a - $b"
 done
 ```
 $ chmod 755 forctype.sh
+
 $ ./forctype1.sh 
 ## OUTPUT
 ![image](https://github.com/KAVIYASHANMUGAM19/OS-Linux-commands-Shell-script/assets/155141139/1e2ea90f-1567-4b78-a2a7-fbc3dbb60847)
@@ -1026,6 +1037,7 @@ done
 echo "The for loop is completed“
 ```
 $ chmod 755 forbreak.sh
+
 $ ./forbreak.sh 
 ## OUTPUT
 ![image](https://github.com/KAVIYASHANMUGAM19/OS-Linux-commands-Shell-script/assets/155141139/a344b040-b848-456b-9c6b-c215be68360a)
@@ -1046,6 +1058,7 @@ done
 echo "The for loop is completed“
 ```
 $ chmod 755 forcontinue.sh
+
 $ ./forcontinue.sh 
 ## OUTPUT
  ![image](https://github.com/KAVIYASHANMUGAM19/OS-Linux-commands-Shell-script/assets/155141139/4c006095-6327-47b1-a7e0-6f7659400433)
@@ -1059,6 +1072,7 @@ read name
 echo "Hello $name, welcome to my program. "
  ```
 $ chmod 755 exread.sh 
+
 $ ./exread.sh 
 ## OUTPUT
 ![image](https://github.com/KAVIYASHANMUGAM19/OS-Linux-commands-Shell-script/assets/155141139/9bd5e462-c2f2-4952-a257-bcfc7524c8bd)
@@ -1072,6 +1086,7 @@ read -p "Enter your name: " name
 echo "Hello $name, welcome to my program. “
 ``` 
 $ chmod 755 exread1.sh 
+
 $ ./exread1.sh
 ## OUTPUT
 ![image](https://github.com/KAVIYASHANMUGAM19/OS-Linux-commands-Shell-script/assets/155141139/27963d9a-955f-4e6d-b39f-c8338b845b45)
@@ -1106,6 +1121,7 @@ cat argshift.sh
 done
 ```
 $ chmod 777  argshift.sh 
+
 $ ./argshift.sh 1 2 3
 ## OUTPUT
 ![image](https://github.com/KAVIYASHANMUGAM19/OS-Linux-commands-Shell-script/assets/155141139/418678e9-67f5-4189-8919-c3f20cfc3614)
@@ -1126,7 +1142,9 @@ done
 
 ```
 $ chmod 777 argshift.sh
+
 $ ./argshift.sh 1 2 3
+
 ## OUTPUT
 ![image](https://github.com/KAVIYASHANMUGAM19/OS-Linux-commands-Shell-script/assets/155141139/0e0ef1a4-9bf9-46b8-a7b4-bc559ad3c5f6)
 
@@ -1207,6 +1225,7 @@ else
 fi
 ```
 $ chmod 755 palindrome.sh
+
 $ ./palindrome.sh
 
 ## OUTPUT :
