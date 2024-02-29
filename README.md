@@ -572,9 +572,6 @@ else
 echo "$val1 is less than $val2"
 fi
 ```
-##OUTPUT
-
-
 
 chmod 755 strcomp.sh
 ./strcomp.sh 
@@ -822,8 +819,10 @@ echo "Sorry, you are not allowed here";;
 esac
 ```
 $ chmod 755 casecheck.sh 
- 
 $ ./casecheck.sh 
+## OUTPUT
+![WhatsApp Image 2024-02-28 at 14 42 48_a8f5e1a3](https://github.com/KAVIYASHANMUGAM19/OS-Linux-commands-Shell-script/assets/155141139/c43bcf4d-2d40-4eae-938f-29597afb6a75)
+
  
 cat > whiletest
 ```bash
@@ -1191,6 +1190,8 @@ $ ./palindrome.sh
 
 ## OUTPUT :
 ![image](https://github.com/KAVIYASHANMUGAM19/OS-Linux-commands-Shell-script/assets/155141139/20663c0d-8fb4-4c15-ab4d-90da9a5dd0c3)
+
+![image](https://github.com/KAVIYASHANMUGAM19/OS-Linux-commands-Shell-script/assets/155141139/356572df-215e-46a7-895e-82a93d4b2f1f)
 
 
 # RESULT:
