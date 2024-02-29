@@ -577,9 +577,9 @@ fi
 
 
 chmod 755 strcomp.sh
- 
 ./strcomp.sh 
 ## OUTPUT
+![Screenshot 2024-02-21 142742](https://github.com/KAVIYASHANMUGAM19/OS-Linux-commands-Shell-script/assets/155141139/1dcf04e3-920f-45a0-a507-79031af00358)
 
 
 # check file ownership
@@ -607,6 +607,9 @@ fi
  ```
 ./psswdperm.sh
 ## OUTPUT
+![Screenshot 2024-02-26 101731](https://github.com/KAVIYASHANMUGAM19/OS-Linux-commands-Shell-script/assets/155141139/29523d35-0705-4d57-ac87-e4f37d754330)
+
+
 
 # check if with file location
 cat>ifnested.sh 
@@ -653,6 +656,8 @@ fi
 
 ./ifnested.sh 
 ## OUTPUT
+![Screenshot 2024-02-26 104711](https://github.com/KAVIYASHANMUGAM19/OS-Linux-commands-Shell-script/assets/155141139/36ceb7e6-c177-4ee8-9e14-746e043ca50e)
+
 
 
 
@@ -696,7 +701,9 @@ fi
 $ chmod 755 iftest.sh
  
 $ ./iftest.sh 
-##OUTPUT
+## OUTPUT
+![Screenshot 2024-02-24 130225](https://github.com/KAVIYASHANMUGAM19/OS-Linux-commands-Shell-script/assets/155141139/1d71e934-177b-4312-bef1-0060dc979c68)
+
 
 # check if a file
 cat > ifnested.sh 
@@ -745,7 +752,10 @@ fi
 $ chmod 755 ifnested.sh
  
 $ ./ifnested.sh 
-##OUTPUT
+## OUTPUT
+![Screenshot 2024-02-26 104711](https://github.com/KAVIYASHANMUGAM19/OS-Linux-commands-Shell-script/assets/155141139/0cd9ee3d-1ca7-49a9-adf7-883928ee1e81)
+
+
 
 # looking for a possible value using elif
 cat elifcheck.sh 
@@ -774,6 +784,8 @@ $ chmod 755 elifcheck.sh
  
 $ ./elifcheck.sh 
 ## OUTPUT
+![Screenshot 2024-02-24 131230](https://github.com/KAVIYASHANMUGAM19/OS-Linux-commands-Shell-script/assets/155141139/092499f2-edf1-4dff-9d29-bf258a7c5b1c)
+
 
 
 # testing compound comparisons
@@ -790,6 +802,9 @@ fi
 $ chmod 755 ifcompound.sh
 $ ./ifcompound.sh 
 ## OUTPUT
+![Screenshot 2024-02-24 131345](https://github.com/KAVIYASHANMUGAM19/OS-Linux-commands-Shell-script/assets/155141139/764b3737-3cfa-4f2d-8da1-cb1d54a03442)
+
+
 
 # using the case command
 cat >casecheck.sh 
@@ -851,8 +866,11 @@ done
  ```
  
 $ chmod 755 forin1.sh
- 
- 
+$ ./forin1.sh
+## OUTPUT
+![Screenshot 2024-02-26 111416](https://github.com/KAVIYASHANMUGAM19/OS-Linux-commands-Shell-script/assets/155141139/5dc4f767-d02a-4202-9095-de2fd4dd0a6e)
+
+
 cat forin2.sh 
 ```bash
 \#!/bin/bash
@@ -864,7 +882,7 @@ done
  ```
  
 $ chmod 755 forin2.sh
- 
+
 cat forin2.sh 
 ```bash
 \#!/bin/bash
@@ -875,8 +893,10 @@ echo “word:$test”
 done
 ```
 $ chmod 755 forin2.sh
- 
 $ ./forin2.sh 
+## OUTPUT
+![Screenshot 2024-02-26 111557](https://github.com/KAVIYASHANMUGAM19/OS-Linux-commands-Shell-script/assets/155141139/ddfb35d7-07c6-4bcc-8238-28534dbac643)
+
  
 cat forin3.sh 
 ```bash
@@ -888,6 +908,9 @@ echo "word:$test"
 done
 ```
 $ ./forin3.sh 
+## OUTPUT
+![Screenshot 2024-02-26 111812](https://github.com/KAVIYASHANMUGAM19/OS-Linux-commands-Shell-script/assets/155141139/ef3e5a09-7495-46e5-b762-e3223388d56a)
+
  
 cat forin1.sh 
 ```bash
@@ -899,8 +922,10 @@ echo The next state is $test
 done
 ```
 $ chmod 755 forin1.sh
-
+$ ./forinfile.sh
 ## OUTPUT
+![Screenshot 2024-02-26 112022](https://github.com/KAVIYASHANMUGAM19/OS-Linux-commands-Shell-script/assets/155141139/b8225fa7-99dc-450f-924d-dd85159643f9)
+
 cat forinfile.sh 
 ```bash
 #!/bin/bash
@@ -922,6 +947,8 @@ Bhadrachalam
 Khammam
 
 ## OUTPUT
+![Screenshot 2024-02-26 113801](https://github.com/KAVIYASHANMUGAM19/OS-Linux-commands-Shell-script/assets/155141139/89247b46-9dd3-4a6f-87db-e2e52bdba71b)
+
 
 
 cat forctype.sh 
