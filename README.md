@@ -1,6 +1,4 @@
-# DATE : 29.02.24
 # NAME : KAVIYA S
-# DEPARTMENT : CSE
 # REGISTER NUMBER : 212223040090
 # OS-Linux-commands-Shell-scripting
 Operating systems Lab exercise
